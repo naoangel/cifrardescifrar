@@ -27,7 +27,7 @@ function cipher(){
          newCode[i] = String.fromCharCode(asciiTo[i]); // volverlo a letra otra vez.
 
 	}
-	 	   return newCode.join('');
+	 	   return alert(newCode.join(''));
 	 	}
  
 
@@ -43,6 +43,6 @@ function decipher(){
         finalCode[i] = String.fromCharCode(code3[i]); // volverlo a letra otra vez.
 
 	}
-	 	   return finalCode.join('');  
+	 	   return alert(finalCode.join(''));  
 
 }
