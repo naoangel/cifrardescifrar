@@ -19,6 +19,6 @@ para poder trabajar uno a uno los caracteres, utilizamos un ciclo for que recorr
 a codeAscii, se vuelve a recorrer y le aplicamos a cada número la fórmula para que nos de el nuevo número., estos nuevos números quedan guardados en asciiTo.
 Para obtener las nuevas letras y y almacenarlas en newCode, aplicamos String.fromCharCode a asciiTo.
 y fuera del ciclo for (porque de lo contrario de nos cortaal primer resultado que entregue) 
-usamos return para devolver el resultado, que sería new code con join aplicado para que se devuelva todo junto como un nuevo string. 
+usamos return para devolver el resultado en un alert, y sería newCode con join aplicado para que se devuelva todo junto como un nuevo string. 
 
 Para en caso de escoger descifrar, el proceso en sí, es idéntico a cipher, lo diferente, es el nombre de las variables y la fórmula a aplicar.
